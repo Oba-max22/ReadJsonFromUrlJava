@@ -8,7 +8,7 @@ import java.nio.charset.Charset;
 
 public class ReadJson {
     public static void main(String[] args) throws IOException {
-        String productName = "Redken Clean Maniac Hair Cleansing Cream Clarifying Shampoo";
+        String productName = "Hp Spectre";
         var product = GetAmazonProduct(productName);
         System.out.println("product : " + product);
         System.out.println("Url : " + product.getJSONObject("product").getString("link"));
